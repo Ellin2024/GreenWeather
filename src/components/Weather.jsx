@@ -61,11 +61,7 @@ const Weather = () => {
   }, [])
   return (
     <div>
-<<<<<<< HEAD
       <h1 style={{textAlign: "center", fontfamily: "Georgia, serif", color: "white", marginTop: "50px", fontSize: "40px"}}>Welcome To Our GreenWeather</h1>
-=======
-      <h1 style={{textAlign: "center", fontFamily:"cursive", color: "white", marginTop: "50px"}}>Welcome To GreenWeather</h1>
->>>>>>> 3d2d7fb3977c0d970e962fcc3d8534c66b0951fc
       <div className='weather'>
         <div className="search-bar">
           <input ref={inputRef} type="text" placeholder='Search' />
