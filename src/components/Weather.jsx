@@ -16,7 +16,7 @@ const Weather = () => {
   const [temperature, setTemperature] = useState(null);
   const [location, setLocation] = useState(null);
   const inputRef = useRef()
-
+  
   const allIcons = {
     "01d": clear_icon,
     "01n": clear_icon,
