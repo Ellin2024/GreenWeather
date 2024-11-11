@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
-import './Weather.css'
+// import './Weather.css'
+import './Testing.css'
 import search_icon from '../assets/search_icon.png'
 import clear_icon from '../assets/clear.png'
 import cloudy_icon from '../assets/cloudy.png'
@@ -60,7 +61,7 @@ const Weather = () => {
   }, [])
   return (
     <div>
-      <h1 style={{textAlign: "center", fontFamily:"cursive", color: "white", marginTop: "50px"}}>WELCOME TO MY WEATHER MAP</h1>
+      <h1 style={{textAlign: "center", fontfamily: "Georgia, serif", color: "white", marginTop: "50px", fontSize: "40px"}}>Welcome To Our GreenWeather</h1>
       <div className='weather'>
         <div className="search-bar">
           <input ref={inputRef} type="text" placeholder='Search' />
