@@ -11,7 +11,7 @@ body, html {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 130vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
