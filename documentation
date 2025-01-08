@@ -18,16 +18,16 @@ GreenWeather is a web-based application designed to provide users with reliable 
 
 ### **Installation**
 1. Clone the repository:
-   ```bash
+   ```
    git clone https://github.com/Ellin2024/GreenWeather.git
    cd GreenWeather
    ```
 2. Install dependencies:
-   ```bash
+   ```
    npm install
    ```
 3. Start the development server:
-   ```bash
+   ```
    npm start
    ```
 4. Open `http://localhost:3000` in your web browser.
@@ -100,11 +100,11 @@ The weather dashboard interface, styled via **`Testing.css`**:
 ## **Contributing**
 1. Fork the repository.
 2. Create a new branch for your feature or bugfix:
-   ```bash
+   ```
    git checkout -b feature/new-feature
    ```
 3. Commit and push your changes:
-   ```bash
+   ```
    git commit -m "Add new feature"
    git push origin feature/new-feature
    ```
