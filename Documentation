@@ -1,0 +1,117 @@
+# **GreenWeather Documentation**
+
+## **Overview**
+GreenWeather is a web-based application designed to provide users with reliable and updated weather information. With a clean and intuitive interface, the application ensures a seamless user experience.
+
+- **Project Name**: GreenWeather
+- **Technology Stack**: React, CSS, JavaScript, React Router
+- **Repository URL**: [GitHub - GreenWeather](https://github.com/Ellin2024/GreenWeather)
+
+---
+
+## **Getting Started**
+
+### **Prerequisites**
+1. Node.js installed on your local machine.
+2. A package manager such as npm or yarn.
+3. Basic knowledge of React and JavaScript.
+
+### **Installation**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ellin2024/GreenWeather.git
+   cd GreenWeather
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+4. Open `http://localhost:3000` in your web browser.
+
+---
+
+## **Usage Guide**
+
+### **Cover Page**
+The entry page, defined in **`CoverPage.jsx`**:
+- **Features**:
+  - Title: "GreenWeather".
+  - Subtitle: "Your reliable source for weather updates."
+  - Button: "Get Started" (navigates to the weather dashboard).
+- **Styling**:
+  - Custom background image.
+  - Responsive and visually appealing design using **`CoverPage.css`**.
+
+### **Weather Dashboard**
+The weather dashboard interface, styled via **`Testing.css`**:
+- **Features**:
+  - Search bar for city input.
+  - Display of temperature, location, and weather icons.
+  - Responsive layout for desktop and mobile screens.
+- **Interactions**:
+  - Dynamic updates based on user input.
+  - Hover effects for interactive elements.
+
+---
+
+## **Architecture**
+
+### **Directory Structure**
+- **`src/`**: Contains all source files.
+  - **`CoverPage.jsx`**: Defines the cover page component.
+  - **`CoverPage.css`**: Styles for the cover page.
+  - **`Testing.css`**: Styles for the weather dashboard.
+  - Additional React components and assets.
+
+### **Component Breakdown**
+- **CoverPage Component**:
+  - Uses React Router for navigation (`useNavigate()`).
+  - Encapsulates the introductory screen logic and layout.
+- **Weather Component**:
+  - Displays real-time weather data.
+  - Styled for adaptability to varying screen sizes.
+
+---
+
+## **Configuration**
+
+1. Replace the default background image URLs in **`CoverPage.css`** and **`Testing.css`** if needed.
+2. Update API endpoint URLs in the weather component (not provided here).
+
+---
+
+## **Troubleshooting**
+
+### Common Issues:
+1. **App Fails to Start**:
+   - Ensure all dependencies are installed.
+   - Verify Node.js and npm versions.
+2. **Background Images Not Loading**:
+   - Check URL paths in the CSS files.
+3. **Navigation Fails**:
+   - Ensure React Router is correctly installed and set up.
+
+---
+
+## **Contributing**
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix:
+   ```bash
+   git checkout -b feature/new-feature
+   ```
+3. Commit and push your changes:
+   ```bash
+   git commit -m "Add new feature"
+   git push origin feature/new-feature
+   ```
+4. Create a pull request on GitHub.
+
+---
+
+## **Additional Information**
+For further details or to report issues, visit the [GitHub repository](https://github.com/Ellin2024/GreenWeather).
+
